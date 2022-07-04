@@ -127,7 +127,7 @@ border-radius: 30%;
         
         margin-bottom: 5%;
         color:yellow;
-
+        
         
         
     }   
@@ -140,20 +140,24 @@ border-radius: 30%;
     }   
     .card-3{
         width: 45%;
-        margin-top: 143%;
-        margin-left: 55%;
-        
+        margin-top: 5%;
+        margin-left: 30%;
         color: yellow;
+        background-size: 100% 100%;
+        animation: ibad 10s infinite linear
     }   
+    @keyframes ibad {
+        25%{background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_1S6CK6UCM5kmso6UO1bIO2xv9EHUD4CCYg&usqp=CAU);}
+        50%{background-image: url(https://www.thenews.com.pk/assets/uploads/updates/2021-07-10/862284_7538915_Eid-Adha_updates.jpg);}
+        70%{background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl9CaF4radhU0DDIjwj00q2GORsheh7BFWWQ&usqp=CAU);}
+
+    }
     
     .head{
        background-size: 100% 100%;
        display: flex;
        display: block;
-       flex-direction: column;
-       flex: 1;
-       height: 95%; 
-       
+      
     }
     
     } 
